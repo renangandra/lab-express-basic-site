@@ -1,0 +1,74 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Specific styles for each page */
+  #main-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #content {
+    text-align: center;
+  }
+  
+  #intro-text {
+    font-style: italic;
+  }
+  
+  #action-image-1,
+  #action-image-2,
+  #action-image-3,
+  #profile-image {
+    border: 2px solid #333;
+    border-radius: 8px;
+  }
+  
+  /* Styles for links in the footer */
+  #site-footer a {
+    margin-right: 10px;
+  }
